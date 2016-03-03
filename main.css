@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 20px);
+}
+
+.logoTitle {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #ddd;
+    height: 22px;
+    font-size: .7em;
+    padding-left: 3px;
+}
+
+.logo {
+    color: #77d;
+}
+
+.title {
+    color: #777
+}
+
+
+
+main {
+    background: #222;
+    display: flex;
+    flex-direction: row;
+    color: #999;
+    margin-bottom: -24px;
+    height: calc(100vh - 20px);
+}
+
+.uiView {
+    margin: 0;
+    padding: 10px;
+    padding-left: 12%;
+    font-size: 1em;
+}
+
+#left-navi-designers {
+    height: 100%;
+    position: fixed; 
+   
+}
+
+.side {   
+    background: #292929;
+    color: whitesmoke;
+    width: 10%; 
+    font-size: 1.2vw;
+    position: fixed;
+    top: 22px;
+    height: 100vh;
+    min-width: 80px;
+    
+}
+
+
+
+a {
+    color: #999;    
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    color: #999;
+    padding: 7px;
+    padding-top: 10%;
+}
+
+ul li:before {
+	content: "\25BE \20";
+    /*\25B9 \20 */
+}
+         
+ul .file {
+    color: #262626;
+    margin-top: 3px;
+    margin-left: -7px;
+}
+
+
+.footerDir{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: .48em;
+    color: whitesmoke;
+    background: #77d;
+    height: 20px;
+}
+
+
+.icon {
+    font-size: 1.5em;
+}
+
+.left {
+    padding-left: 10px;
+    float: left;
+}
+.right {
+    padding-right: 10px;
+   float: right
+}
+
